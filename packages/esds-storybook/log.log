@@ -1,0 +1,53 @@
+Using @applitools/eyes-storybook version 3.2.3.
+
+2020-01-16T13:12:53.425Z eyes 2020-01-16T13:12:53Z Eyes: [LOG    ] {} (): 1266.001 ms. Running with the following config:
+concurrency           : 10
+storybookPort         : 9000
+storybookHost         : localhost
+storybookConfigDir    : .storybook
+storybookUrl          : http://localhost:8000
+storybookStaticDir    : undefined
+showStorybookOutput   : true
+waitBeforeScreenshot  : 50
+waitBeforeScreenshots : 50
+tapFilePath           : undefined
+exitcode              : true
+readStoriesTimeout    : 60000
+reloadPagePerStory    : false
+apiKey                : 5guEPRu5GGMRntTZbDvcF103toZWn0NmNDhsANU104McbSs110
+appName               : esds-storybook
+batchName             : esds-storybook
+agentId               : eyes-storybook/3.2.3
+
+2020-01-16T13:12:53.426Z eyes 2020-01-16T13:12:53Z Eyes: [LOG    ] {} (): 1.609 ms. Memory usage: rss: 82.94 MB, heapTotal: 65.26 MB, heapUsed: 43.11 MB, external: 1.37 MB
+2020-01-16T13:12:53.427Z eyes 2020-01-16T13:12:53Z Eyes: [LOG    ] {} (): 0.588 ms. eyesStorybook started
+2020-01-16T13:12:53.753Z eyes 2020-01-16T13:12:53Z Eyes: [LOG    ] {} (): 325.534 ms. browser launched
+2020-01-16T13:12:53.966Z eyes 2020-01-16T13:12:53Z Eyes: [LOG    ] {} (): 213.855 ms. [page pool] created
+2020-01-16T13:12:53.969Z eyes 2020-01-16T13:12:53Z Eyes: [LOG    ] {} (): 2.31 ms. got script for processPage
+2020-01-16T13:12:53.970Z eyes 2020-01-16T13:12:53Z Eyes: [LOG    ] {} (): 0.899 ms. Getting stories from storybook
+- Reading stories
+2020-01-16T13:12:53.971Z eyes 2020-01-16T13:12:53Z Eyes: [LOG    ] {} (): 0.922 ms. navigating to storybook url: http://localhost:8000
+2020-01-16T13:12:53.973Z eyes 2020-01-16T13:12:53Z Eyes: [LOG    ] {} (): 1.968 ms. initializing puppeteer page number  0
+2020-01-16T13:12:53.973Z eyes 2020-01-16T13:12:53Z Eyes: [LOG    ] {} (): 0.338 ms. initializing puppeteer page number  1
+2020-01-16T13:12:53.973Z eyes 2020-01-16T13:12:53Z Eyes: [LOG    ] {} (): 0.224 ms. initializing puppeteer page number  2
+2020-01-16T13:12:56.052Z eyes 2020-01-16T13:12:56Z Eyes: [LOG    ] {} (): 2079.019 ms. master tab: getting stories from storybook via API. v5_2
+✔ Reading stories
+2020-01-16T13:12:56.053Z eyes 2020-01-16T13:12:56Z Eyes: [LOG    ] {} (): 0.684 ms. got 0 stories: []
+2020-01-16T13:12:56.053Z eyes 2020-01-16T13:12:56Z Eyes: [LOG    ] {} (): 0.4 ms. starting to run 0 stories
+2020-01-16T13:12:56.054Z eyes 2020-01-16T13:12:56Z Eyes: [LOG    ] {} (): 0.32 ms. finished creating functions
+- Done 0 stories out of 0
+2020-01-16T13:12:56.054Z eyes 2020-01-16T13:12:56Z Eyes: [LOG    ] {} (): 0.468 ms. [prepareNewPage] preparing...
+2020-01-16T13:12:56.054Z eyes 2020-01-16T13:12:56Z Eyes: [LOG    ] {} (): 0.095 ms. initializing puppeteer page number  3
+✔ Done 0 stories out of 0
+2020-01-16T13:12:56.055Z eyes 2020-01-16T13:12:56Z Eyes: [LOG    ] {} (): 0.645 ms. total time:  1
+2020-01-16T13:12:56.055Z eyes 2020-01-16T13:12:56Z Eyes: [LOG    ] {} (): 0.253 ms. perf results {"renderStories":1}
+
+Test is finished but no results returned.
+
+
+Important notice: Your Applitools visual tests are currently running with a concurrency value of 10.
+This means that only up to 10 visual tests can run in parallel, and therefore the execution might be slower.
+If your Applitools license supports a higher concurrency level, learn how to configure it here: https://www.npmjs.com/package/@applitools/eyes-storybook#concurrency.
+Need a higher concurrency in your account? Email us @ sdr@applitools.com with your required concurrency level.
+
+
