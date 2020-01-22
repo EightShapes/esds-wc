@@ -1,0 +1,16 @@
+{
+  "name": "tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx style-dictionary build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kevin Powell <kevinmpowell@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "style-dictionary": "^2.8.3"
+  }
+}
